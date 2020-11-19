@@ -23,7 +23,7 @@ module.exports = {
         arraysInArrays: true,
       },
     ],
-    "arrow-parens": [2, "avoid"],
+    "arrow-parens": [2, "always"],
     "arrow-spacing": 2,
     "block-spacing": [2, "always"],
     "brace-style": [2, "allman", { allowSingleLine: true }],
