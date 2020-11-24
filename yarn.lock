@@ -4933,6 +4933,11 @@ module-deps@^6.2.3:
     through2 "^2.0.0"
     xtend "^4.0.0"
 
+ms@0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.1.tgz#9cd13c03adbff25b65effde7ce864ee952017098"
+  integrity sha1-nNE8A62/8ltl7/3nzoZO6VIBcJg=
+
 ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
@@ -5644,6 +5649,13 @@ react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
+react-native-debug@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-debug/-/react-native-debug-3.0.0.tgz#f525f04c2209e26a5bb8ea845eac61482bab4e10"
+  integrity sha1-9SXwTCIJ4mpbuOqEXqxhSCurThA=
+  dependencies:
+    ms "0.7.1"
 
 react-native-webrtc@^1.84.1:
   version "1.84.1"

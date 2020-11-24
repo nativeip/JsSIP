@@ -31,6 +31,7 @@
     "@types/node": "^14.0.6",
     "debug": "^4.3.1",
     "events": "^3.1.0",
+    "react-native-debug": "^3.0.0",
     "react-native-webrtc": "^1.84.1",
     "sdp-transform": "^2.14.0"
   },
