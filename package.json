@@ -2,11 +2,11 @@
   "name": "jssip",
   "title": "JsSIP",
   "description": "the React Native SIP library",
-  "version": "3.6.5",
+  "version": "3.9.0",
   "homepage": "https://jssip.net",
-  "author": "José Luis Millán <jmillan@aliax.net> (https://github.com/jmillan)",
   "contributors": [
-    "Iñaki Baz Castillo <ibc@aliax.net> (https://github.com/ibc)"
+    "José Luis Millán <jmillan@aliax.net> (https://github.com/jmillan)",
+    "Iñaki Baz Castillo <ibc@aliax.net> (https://inakibaz.me)"
   ],
   "types": "lib/JsSIP.d.ts",
   "main": "lib/JsSIP.js",
@@ -28,15 +28,16 @@
   },
   "dependencies": {
     "@types/debug": "^4.1.5",
-    "@types/node": "^14.0.6",
-    "events": "^3.1.0",
+    "@types/node": "^14.14.34",
+    "debug": "^4.3.1",
+    "events": "^3.3.0",
     "react-native-debug": "^3.0.0",
     "react-native-webrtc": "^1.84.1",
-    "sdp-transform": "^2.14.0"
+    "sdp-transform": "^2.14.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.6",
-    "@babel/preset-env": "^7.9.6",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
     "@babel/preset-react": "^7.12.5",
     "ansi-colors": "^4.1.1",
     "babel-preset-react-native": "^4.0.1",
