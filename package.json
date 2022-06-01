@@ -2,7 +2,7 @@
   "name": "jssip",
   "title": "JsSIP",
   "description": "the React Native SIP library",
-  "version": "3.9.0",
+  "version": "3.10.0",
   "homepage": "https://jssip.net",
   "contributors": [
     "José Luis Millán <jmillan@aliax.net> (https://github.com/jmillan)",
@@ -33,7 +33,8 @@
     "events": "^3.3.0",
     "react-native-debug": "^3.0.0",
     "react-native-webrtc": "^1.84.1",
-    "sdp-transform": "^2.14.1"
+    "sdp-transform": "^2.14.1",
+    "standard-version": "^9.5.0"
   },
   "devDependencies": {
     "@babel/core": "^7.13.10",
@@ -63,6 +64,7 @@
   "scripts": {
     "lint": "gulp lint",
     "test": "gulp test",
-    "prepublishOnly": "gulp babel"
+    "prepublishOnly": "gulp babel",
+    "release": "standard-version"
   }
 }

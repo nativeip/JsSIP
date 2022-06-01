@@ -1,5 +1,15 @@
-CHANGELOG
-=========
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [3.10.0](https://github.com/versatica/JsSIP/compare/v0.4.0...v3.10.0) (2022-06-01)
+
+
+### Features
+
+* Bump version ([50f158b](https://github.com/versatica/JsSIP/commit/50f158b7dc90446288ea786d128cbd77f45dac2c))
+* Change debug to react native debug ([b91f149](https://github.com/versatica/JsSIP/commit/b91f1497f41ccaa7709317f7931b4010a352fbb7))
+* Rewrite mute functions without getSenders ([b4b05c5](https://github.com/versatica/JsSIP/commit/b4b05c5dfb67ec7c919dae7e460fbd53c6610d49))
 
 ### 3.9.0
 
